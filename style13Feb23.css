@@ -11,3 +11,18 @@
 
  }
 
+/* Percent values- RELATIVE */
+/* % element  is going to depend on the parent element, for example in this case the outer is the parent while the inner is the child */
+/* the inner will be half of the parent ie half of 500px */
+
+.outer{
+ width: 500px;
+ height: 500px;
+ background: blue;
+}
+
+.inner{
+ width: 50%;
+ height: 50%;
+ background: red;
+}
